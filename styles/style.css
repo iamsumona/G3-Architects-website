@@ -1,0 +1,223 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* -------------------- header start ----------------------- */
+.header {
+    background-color: rgb(171, 196, 134);
+    height: 100vh;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-items a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+/* -------------------- Introduction start ----------------------- */
+.introduction {
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.intro-text, .intro-info {
+    padding-bottom: 15px;
+
+}
+.btn {
+    color: yellow;
+    background-color: yellowgreen;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.intro-img img {
+    height: 390px;
+    width: 100%;
+
+}
+/* -------------------- feature section start ----------------------- */
+
+.picture {
+    width: 342px;
+    height: 342px;
+}
+.features{
+    display: flex;
+    margin-top: 3rem;
+    position: relative;
+    
+}
+.quick-list-text{
+    color: #918f8d;
+}
+.feactures-text{
+    color: rgb(255, 174, 0);
+}
+
+.featueslist-head,.about-features,.explore-more{
+    margin-bottom: 2rem;
+}
+
+.features-list{
+
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+   
+}
+.features-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+
+/* -------------------- Enjoyable feature section ----------------------- */
+.Version{
+    background-color: #4b3a3a;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px 0px rgb(66, 64, 64);
+}
+
+.features-details-header,.features-details-para{
+    margin-bottom: 2rem;
+}
+
+.features-details-header{
+    
+    border-left: 5px solid rgb(255, 174, 0);
+    padding-left: 1rem;
+}
+.sponser-img{
+    position: relative;
+    margin-left: 5rem;
+    
+}
+
+.sponser-img .experience-btn{
+    position: absolute;
+    top: 85%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+    width: 10rem;
+    height: 10rem;
+    background: greenyellow;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.ten-years{
+    font-size:xx-large;
+
+}
+.architect-img img{
+    position: relative;
+    height: 650px;
+    width:500px;
+}
+
+
+.enjoyable-features{
+    margin-top: 3rem;
+    display: flex;
+
+    
+}
+.fact-start,
+.fact-txt {
+    margin-top: 2rem;
+
+}
+
+
+.fact-item {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid greenyellow;
+    border-radius: 7px;
+    height: 8rem;
+    width: 8rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    justify-content: center;
+    transition: backgroud-color 1s ease 1s;
+}
+
+.fact-items {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.fact-item:hover{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+
+}
+
+
+
+/*-------------------Sponspors start section-------------------*/
+
+
+.sponspors {
+    text-align: center;
+}
+
+.sponspor-start,
+.sponspor-text,
+.sponspor-logos {
+    margin-bottom: 2rem;
+
+}
+
+.sponspor-icon {
+    width: 152.51px;
+    height: 50px;
+}
+
+.sponspor-logos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+    column-gap: 5rem;
+    margin-top: 1rem;
+}
+
+/*-------------------footer section-------------------*/
+.footer {
+    background-color: greenyellow;
+    height: 5vh;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
