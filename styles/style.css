@@ -70,7 +70,7 @@
     
 }
 .quick-list-text{
-    color: papayawhip;
+    color: rgb(150, 106, 35);
 }
 .feactures-text{
     color: rgb(255, 174, 0);
@@ -97,7 +97,7 @@
 
 /* -------------------- Enjoyable feature section ----------------------- */
 .Version{
-    background-color: #4b3a3a;
+    background-color:whitesmoke;
     margin-bottom: 2rem;
     padding: 1rem;
     box-shadow: 0px 0px 3px 0px rgb(66, 64, 64);
