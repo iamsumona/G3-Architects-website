@@ -70,7 +70,7 @@
     
 }
 .quick-list-text{
-    color: #918f8d;
+    color: papayawhip;
 }
 .feactures-text{
     color: rgb(255, 174, 0);
@@ -154,6 +154,10 @@
 
 }
   /*----------------------some facts section----------------------------------*/
+.fact-start,.fact-txt {
+    margin-top: 2rem;
+    display: flex;
+}
 
 .fact-item {
     display: flex;
@@ -220,6 +224,7 @@
     padding-top: 2rem;
 }
 
+/*-------------------- medeia responsive for 567x484 screen----------------*/
 
 @media screen and (max-width: 567px) 
 {
@@ -234,16 +239,16 @@
     justify-content: space-between;
     flex-direction: column;
     padding-top: 1rem;
-    
 
 }
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding-top: 20px;
 }
-
  /* -------------------- feature section start ----------------------- */
  .features{
     margin-top: 3rem;
@@ -314,7 +319,6 @@
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 
 }
